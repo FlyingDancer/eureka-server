@@ -1,0 +1,16 @@
+# Properties for spring.
+spring:
+  application:
+    name: eureka-server
+
+# Properties for server
+server:
+  port: 33062
+
+# Properties for eureka
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
